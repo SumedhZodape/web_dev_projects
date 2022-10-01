@@ -1,0 +1,89 @@
+@media (min-width:320px) and (max-width:480px) {
+    /* header */
+    .header {
+        height: 50px;
+        height: auto;
+    }
+    .container {
+        height: auto;
+    }
+    .logo {
+        height: 50px;
+        font-size: 25px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .navigation {
+        height: auto;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .nav_link {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .nav {
+        height: 0;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .header:hover .nav {
+        height: 250px;
+    }
+    /* banner */
+    .banner {
+        height: 200px;
+        margin-top: 50px;
+    }
+    .banner_img {
+        margin-top: 0;
+    }
+    .place {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .place_desc {
+        font-size: 14px;
+    }
+    .place_title {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    /* about section  */
+    .about_image {
+        height: auto;
+        width: 100%;
+    }
+    .about_text {
+        height: auto;
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        height: 300px;
+        overflow: hidden;
+    }
+    .padd {
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .heighlight {
+        font-size: 18px;
+    }
+    .mob-btn {
+        display: block;
+    }
+    /* booking */
+    .booking_title {
+        font-size: 26px;
+    }
+    /* gallery */
+    .gall_image {
+        height: 160px;
+        width: 50%;
+    }
+}

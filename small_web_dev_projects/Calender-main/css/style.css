@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Segoe UI;
+}
+
+
+.new-container{
+    width: 60%;
+    overflow: hidden;
+}
+
+.slide-container{
+    width: 700%;
+    display: flex;
+    
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 2s;
+    animation-duration: 16s;
+}
+
+.slide-container:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes slider {
+   8.33333333333%{
+        margin-left: -100%;
+    }
+    16.6666666667%{
+       margin-left: -100%;
+   }
+   25%{
+       margin-left: -200%;
+   }
+   33.3333333333%{
+       margin-left: -200%;
+   }
+   41.6666666667%{
+       margin-left: -300%;
+   }
+   50%{
+       margin-left: -300%;
+   }
+   58.3333333333%{
+       margin-left: -400%;
+   }
+   66.6666666666%{
+       margin-left: -400%;
+   }
+   75%{
+       margin-left: -500%;
+   }
+   83.3333333333%{
+       margin-left: -500%;
+   }
+
+   91.6666666666%{
+       margin-left: -600%;
+   }
+
+   100%{
+       margin-left: -600%;
+   }
+}
+
+
+
+.two-months{
+   width: 14.2857142857%;
+   display: flex;
+   justify-content: center;
+   column-gap: 2%;
+}
+
+.container{
+   background-color: #000;
+   width: 49%;
+   position: relative;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-container{
+    height: 160px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+
+.bg-img{
+    height: 160px;
+    background-position: centers;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://wallpaperaccess.com/full/1622640.jpg');    
+}
+        
+.calender-data{
+    text-align: center;
+}
+
+.calender-data h1{
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 1px solid grey;
+    line-height: 50px;
+    margin-top: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+.table-container{
+    padding: 10px;
+}
+
+table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+tr{
+    height: 30px;
+    cursor: pointer;
+}
+
+td{
+    height: 35px;
+    width: 35px;
+    color: #fff     ;
+}
+
+td:hover{
+    background-color: rgb(255, 189, 189);
+}
+
+.blank{
+    cursor: default;
+}
+
+.blank:hover{
+    background-color: transparent;
+}
+
+tr td:first-child{
+    color: red;
+}
+
+th:first-child{
+    color: red;
+}
+
+
+
+
+
+
+
+
+.fest{
+    font-weight: 600;
+    color: red;
+    background-position: center;
+    background-size: covers;
+    background-repeat: no-repeat;
+}
+
+
+.img-adjust{
+    height: 196px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    text-align: center;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+ }
+
+ .new-year{
+     background-image: url('../images/new-year.jpg');
+     display: none;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .new-year-fest:hover .new-year{
+     display: block;
+ }
+
+
+ .lohri{
+     background-image: url('../images/lohri.jpg');
+     display: none;
+ }
+ .lohri-fest:hover .lohri{
+    display: block;
+}
+
+
+ .makar-sankranti{
+     background-image: url('../images/makar-sankranti.jpg');
+     display: none;
+ }
+ .makar-sankranti-fest:hover .makar-sankranti{
+    display: block;
+}
+
+ .republic{
+     background-image: url('../images/26.jpg');
+     display: none;
+ }
+ .republic-fest:hover .republic{
+     display: block;
+ }
+
+
+.chhatrapati{
+    background-image: url('../images/shivaji.jpg');
+    display: none;
+}
+
+.chhatrapati-fest:hover .chhatrapati{
+    display: block;
+}
+
+.holi{
+    background-image: url('../images/holi.jpg');
+    display: none;
+}
+
+.holi-fest:hover .holi{
+    display: block;
+}
+
+.holi-1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZv7lsREfFhfNI9eBLiJIvSqiW3B7uAdZYg&usqp=CAU');
+    display: none;
+}
+
+.holi-1-fest:hover .holi-1{
+    display: block;
+}
+
+.ambedkar{
+    background-image: url('../images/ambedkar.jpg');
+    display: none;
+}
+
+.ambedkar-fest:hover .ambedkar{
+    display: block;
+}
+
+.ugad{
+    background-image: url('../images/ugad.jpg');
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ugad-fest:hover .ugad{
+    display: block;
+}
+
+.cheti{
+    background-image: url('../images/cheti.jpg');
+    display: none;
+}
+
+.cheti-fest:hover .cheti{
+    display: block;
+}
+
+.ram{
+    background-image: url('../images/ram.jpg');
+    display: none;
+}
+
+.ram-fest:hover .ram{
+    display: block;
+}
+
+
+.goodfriday{
+    background-image: url('../images/goodfriday.jpg');
+    display: none;
+}
+
+.goodfriday-fest:hover .goodfriday{
+    display: block;
+}
+
+.eid{
+    background-image: url('../images/eid.jpg');
+    display: none;
+}
+
+.eid-fest:hover .eid{
+    display: block;
+}
+
+.budhha{
+    background-image: url('../images/budhha.jpg');
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.budhha-fest:hover .budhha{
+    display: block;
+}
+
+.rath{
+    background-image: url('../images/rath.jpg');
+    display: none;
+}
+
+.rath-fest:hover .rath{
+    display: block;
+}
+
+.eida{
+    background-image: url('../images/eid\ al\ adha.jpg');
+    display: none;
+}
+
+.eida-fest:hover .eida{
+    display: block;
+}
+
+.guru{
+    background-image: url('../images/gurupurnima.jpg');
+    display: none;
+}
+
+.guru-fest:hover .guru{
+    display: block;
+}
+
+.nag{
+    background-image: url('../images/nag\ panchami.jpg');
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nag-fest:hover .nag{
+    display: block;
+}
+
+.rakhi{
+    background-image: url('../images/rakhi.jpg');
+    display: none;
+}
+
+.rakhi-fest:hover .rakhi{
+    display: block;
+}
+
+.independence{
+    background-image: url('../images/independence.jpg');
+    display: none;
+}
+
+.independence-fest:hover .independence{
+    display: block;
+}
+
+.janma{
+    background-image: url('../images/janmashtami.jpgs');
+    display: none;
+}
+
+.janma-fest:hover .janma{
+    display: block;
+}
+
+.ganesh{
+    background-image: url('../images/ganesh-chaturthi.jpg');
+    display: none;
+}
+
+.ganesh-fest:hover .ganesh{
+    display: block;
+}
+
+.onam{
+    background-image: url('../images/happyonam.jpg');
+    display: none;
+}
+
+.onam-fest:hover .onam{
+    display: block;
+}
+
+.nav{
+    background-image: url('../images/navratri.jpg');
+    display: none;
+}
+
+
+.nav-fest:hover .nav{
+    display: block;
+}
+
+
+.gandhi{
+    background-image: url('../images/ghandhi\ jayanti.jpg');
+    display: none;
+}
+
+.gandhi-fest:hover .gandhi{
+    display: block;
+}
+
+.durga{
+    background-image: url('../images/durga\ puja.jpg');
+    display: none;
+}
+
+.durga-fest:hover .durga{
+    display: block;
+}
+
+.dussehra{
+    background-image: url('../images/dussehras.jpg');
+    display: none;
+}
+
+.dussehra-fest:hover .dussehra{
+    display: block;
+}
+
+.eidm{
+    background-image: url('../images/eid\ un\ nabi.jpg');
+    display: none;
+}
+
+.eidm-fest:hover .eidm{
+    display: block;
+}
+
+.karva{
+    background-image: url('../images/karva\ chauth.jpg');
+    display: none;
+}
+
+.karva-fest:hover .karva{
+    display: block;
+}
+
+.dhan{
+    background-image: url('../images/dhanteras.jpg');
+    display: none;
+}
+
+.dhan-fest:hover .dhan{
+    display: block;
+}
+
+.diwali{
+    background-image: url('../images/diwali.jpg');
+    display: none;
+}
+
+.diwali-fest:hover .diwali{
+    display: block;
+}
+
+.bhai{
+    background-image: url('../images/bhaidooj.jpg');
+    display: none;
+}
+
+.bhai-fest:hover .bhai{
+    display: blocks;
+}
+
+
+.chhath{
+    background-image: url('../images/chhath\ puja.jpg');
+    display: none;
+}
+
+.chhath-fest:hover .chhath{
+    display: block;
+}
+
+
+.child{
+    background-image: url('../images/children\ day.jpg');
+    display: none;
+}
+
+.child-fest:hover .child{
+    display: none;
+}
+
+.xmas{
+    background-image: url('../images/xmas.jpg');
+    display: none;
+}
+
+.xmas-fest:hover .xmas{
+    display: block;
+}

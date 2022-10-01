@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  css for header  */
+
+.header{
+    height: 60px;
+    width: 100%;
+    /* background-color: rgba(16, 128, 234, 1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width: 86%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.header-container{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+    width: 15%;
+    /* background-color: yellow;  */
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;  
+    font-weight: bold;
+    line-height: 60px; 
+    color: white;
+}
+
+.nav{
+    height: 60px;
+    width: 45%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.nav-item{
+    width: 20%;
+    height: 60px;
+    /* background-color: grey; */
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: #097fbe;   
+}
+
+
+
+/* banner */
+
+.banner{
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    background: url('./images/banner.jpg') no-repeat center center/cover;
+}
+
+.overlay{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+    height: 250px;
+    width: 40%;
+    background-color: rgba(16, 128, 234, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 40px;
+    color: white;
+}
+
+.banner-desc{
+    margin-bottom: 20px;
+}
+
+.padd{
+    padding: 20px;
+    color: white;
+    /* background-color: red; */
+}
+
+.banner-btn{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+/* css for services */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 300px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 30px;
+}
+
+.service-img{
+    width: 40%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+
+.service-details{
+    width: 60%;
+    height: 300px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}   
+
+.service-padd{
+    padding: 20px;
+}
+
+.service-btn{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color:rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .4s;   
+}
+
+.service-btn:hover{
+    background-color: white;
+    border: 2px solid rgba(16, 128, 234, 1);
+    color: rgba(16, 128, 234, 1);
+}
+
+
+.service-title{
+    margin-bottom: 15px;
+}
+
+.service-desc{
+    margin-bottom: 15px;;
+}
+
+
+
+/* css for about */
+
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.about-container{
+    margin-top: 20px;
+    /* background-color: red; */
+    line-height: 27px;
+    display: inline;
+    text-align: justify;
+}
+
+.start-text{
+    font-size: 27px;
+    font-weight: bolder;
+    color: grey;
+}
+
+
+/* <!-- hightlight --> */
+
+.highlight{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: rgba(16, 128, 234, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-container{
+    justify-content: space-between;
+}
+
+.high-ele{
+    width: 22%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.high-title{
+    font-size: 45px;
+}
+
+.high-desc{
+    font-size: 21px;
+    
+}
+
+
+/* css quote */
+
+.quote{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-title{
+    margin-bottom: 20px;
+}
+
+.quote-btn{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color:rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgba(16, 128, 234, 1);
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 10px;
+}
+
+.quote-btn:hover{
+    background-color: white;
+    border: 2px solid rgba(16, 128, 234, 1);
+    color: rgba(16, 128, 234, 1);
+}
+
+
+/* css for portfolio */
+
+.portfolio{
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #e4e4e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.portfolio-container{
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    width: 100%;
+}
+
+.project{
+    width: 25%;
+    height: 230px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.project-1{
+    background-image: url('https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project-2{
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project-3{
+    background-image: url('https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project-4{
+    background-image: url('https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project-5{
+    background-image: url('https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project-6{
+    background-image: url('https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project-7{
+    background-image: url('https://images.pexels.com/photos/674783/pexels-photo-674783.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project-8{
+    background-image: url('https://images.pexels.com/photos/158664/african-instruments-background-music-158664.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project-title{
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-indent: 20px;
+    line-height: 100px;
+    background-color: rgba(16, 128, 234, .5);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project-title:hover{
+    height: 230px;
+}
+
+
+
+/* css for  footer */
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-child{
+    height: 250px;
+    width: 25%;
+    /* background-color: grey; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-child-1{
+    align-items: center;
+    color: white;
+    font-size: 21px;
+}   
+
+ul{
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.first{
+    font-size: 20px;
+}
+
+.footer-child-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container{
+    width: 80%;
+    justify-content: space-between;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    border-radius: 12px;
+    
+}
+
+.s-1{
+    background-image: url('./images/fb.png');
+}
+
+.s-2{
+    background-image: url('./images/google.png');
+}
+
+.s-3{
+    background-image: url('./images/linkedin.png');
+}
+
+.s-4{
+    background-image: url('./images/intsa.png');
+}

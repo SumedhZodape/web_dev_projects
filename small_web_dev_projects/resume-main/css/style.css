@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Segoe UI;
+}
+
+/* common css */
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1080px;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* header */
+
+.header{
+    height: 70px;
+    background-color: #000;
+}
+
+.header-container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav > li{
+    list-style-type: none;
+    background-color: rgb(253, 194, 0);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.nav > li > a{
+    color: #000;
+    transition: .3s;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav > li > a:hover{
+    color: rgb(19, 19, 19);
+}
+
+
+
+
+
+/* portfolio */
+
+.portfolio{
+    /* height: 1500px; */
+    background-color: #dee1ee;
+}
+
+
+.portfolio-container{
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 40px;
+}
+
+.information-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.information::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 20%;
+    background-color: rgb(253, 194, 0);
+    top: 50%;
+    right: 10%;
+}
+
+.information > h2{
+    color: rgb(253, 194, 0);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.information > h1{
+    color: #181818;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.information > p{
+    font-size: 20px;    
+    color: #131313;
+    font-weight: 500;
+}
+
+.my-image{
+    width: 40%;
+    height: 350px;
+    background-color: rgb(253, 194, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.img-position{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    left: -20%;
+}
+
+.my-image::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 30%;
+    background-color: #fff;
+    bottom: 30%;
+    left: 10%;
+}
+
+
+.my-image::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 18%;
+    background-color: rgb(27, 27, 27);
+    top: 35%;
+    left: -30%;
+    z-index: 99;
+}
+
+
+
+
+
+
+/* middle information */
+
+.all-information{
+    /* height: 500px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-details{
+    width: 60%;
+    background-color: #252532;
+    padding: 30px 0px;
+}
+
+.about-us{
+    width: 40%;
+    background-color: #fff;
+    padding: 30px 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+
+.myinfo > .title{
+    background-color: rgba(59, 59, 59, 0.5);
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+.title > h2{
+    line-height: 26px;
+    margin-left: 50px;    
+    font-size: 24px;
+    /* font-size: ; */
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.title > h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    background-color: rgb(253, 194, 0);
+    bottom: 0;
+}
+
+.title{
+    position: relative;
+}
+
+.title::after{
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 15px;
+    background-color: rgb(253, 194, 0);
+}
+
+.education-info{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    column-gap: 40px;
+}
+
+.eduction-data{
+    width: 50%;
+}
+
+.eduction-data> h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #eeeded;
+    margin-bottom: 10px;
+}
+
+.univercity{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+
+.stream, .year{
+    font-size: 15px;
+    color: #dadada;
+    margin-bottom: 5px;
+}
+
+.myinfo{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* experience info */
+
+.experience-info{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.present-btn{
+    background-color: rgb(253, 194, 0);
+    padding: 8px 20px;
+    border: none;
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.Experience-data{
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.experience-info > ol{
+    margin-left: 20px;
+}
+
+.experience-info > ol > li{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
+/* about us info */
+.about-myinfo > .title{
+    background-color: rgba(59, 59, 59, 0.15) !important;
+    text-transform: uppercase;
+    color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+}
+
+.about-data > p{
+    color: #161616;
+    width: 100%;
+}
+
+.about-data{
+    width: 90%;
+}
+
+.about-data > h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(31, 31, 31);
+}
+
+.about-data > p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* Hobies */
+.hobies-icon{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.hobies-icon> div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobies-icon> div > i{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid rgb(253, 194, 0);
+    color: rgb(253, 194, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.hobies-icon> div > p{
+    text-align: center;
+}
+
+
+.bg-color{
+    height: 50px;
+    background-color: rgb(253, 194, 0);
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

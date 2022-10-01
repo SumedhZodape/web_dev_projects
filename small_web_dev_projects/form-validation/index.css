@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    width: 25%;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.field_holder{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.field_holder>input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 17px;
+    outline: none;
+    position: absolute;
+}
+
+
+.tooltip{
+    width: 60%;
+    padding: 15px 10px;
+    background-color: #c92c3e;
+    position: absolute;
+    right: -62%;
+    color: white;
+    font-family: segoe UI;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px gray;
+    display: none;
+}
+
+.tooltip::before{
+    content: '';
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: #c92c3e;
+    position: absolute;
+    left: -7.5px;
+    transform: rotateZ(45deg);
+    
+}
+
+button{
+    padding: 13px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

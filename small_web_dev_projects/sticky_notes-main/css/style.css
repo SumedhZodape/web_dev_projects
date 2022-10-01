@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1090px;
+}
+
+.header-container{
+    background-color: #e5e5e5;
+    min-height: 90vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.app_name {
+    font-weight: 400;
+    font-family: Segoe UI;
+    padding: 0px 20px;
+    font-weight: Bold;
+    color: rgb(245, 50, 148);
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    font-family: Segoe UI;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.btn:nth-child(1) {
+    background-color: yellowgreen;
+}
+
+.btn:nth-child(2) {
+    background-color: #bb7f11;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+
+
+
+
+/* css for notes */
+.notes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+}
+
+.title {
+    width: 100%;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.content {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+}
+
+
+img {
+    cursor: pointer;
+    transition: .3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* footer */
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container>p {
+    color: #fff;
+    font-family: Segoe UI;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* header */
+    .container {
+        width: 80%;
+    }
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .header {
+        height: 70px;
+        margin-bottom: 30px;
+    }
+
+    .app_name {
+        font-size: 22px;
+    }
+
+    .buttons {
+        height: 70px;
+        width: 40%;
+    }
+
+    .btn {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+
+
+    /* css for notes */
+    .notes {
+        row-gap: 20px;
+        column-gap: 0;
+    }
+
+    .note {
+        width: 100%;
+    }
+
+    .title {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .content {
+        height: 300px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 25px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-container>p {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* header */
+    .container {
+        width: 80%;
+    }
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .header {
+        height: 80px;
+        margin-bottom: 30px;
+    }
+
+    .app_name {
+        font-size: 28px;
+    }
+
+    .buttons {
+        height: 80px;
+        width: 30%;
+    }
+
+    .btn {
+        padding: 12px 30px;
+    }
+
+
+
+    /* css for notes */
+    .notes {
+        row-gap: 30px;
+        column-gap: 4%;
+    }
+
+    .note {
+        width: 48%;
+    }
+
+    .title {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .content {
+        height: 300px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 25px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-container>p {
+        font-size: 16px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    /* header */
+    .container {
+        width: 80%;
+    }
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .header {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .app_name {
+        font-size: 30px;
+    }
+
+    .buttons {
+        height: 100px;
+        width: 30%;
+    }
+
+    .btn {
+        padding: 12px 35px;
+    }
+
+
+
+    /* css for notes */
+    .notes {
+        row-gap: 30px;
+        column-gap: 4%;
+    }
+
+    .note {
+        width: 48%;
+    }
+
+    .title {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .content {
+        height: 300px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 30px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        height: 100px;
+    }
+
+    .footer-container>p {
+        font-size: 16px;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    /* header */
+    .container {
+        width: 90%;
+    }
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .header {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .app_name {
+        font-size: 30px;
+    }
+
+    .buttons {
+        height: 100px;
+        width: 20%;
+    }
+
+    .btn {
+        padding: 15px 40px;
+    }
+
+
+
+    /* css for notes */
+    .notes {
+        row-gap: 30px;
+        column-gap: calc(7%/2);
+    }
+
+    .note {
+        width: 31%;
+    }
+
+    .title {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .content {
+        height: 300px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 30px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        height: 100px;
+    }
+
+    .footer-container>p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* header */
+    .container {
+        width: 100%;
+    }
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .header {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .app_name {
+        font-size: 30px;
+    }
+
+    .buttons {
+        height: 100px;
+        width: 20%;
+    }
+
+    .btn {
+        padding: 15px 40px;
+    }
+
+
+
+    /* css for notes */
+    .notes {
+        row-gap: 30px;
+        column-gap: calc(7%/2);
+    }
+
+    .note {
+        width: 31%;
+    }
+
+    .title {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .content {
+        height: 300px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 30px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        height: 100px;
+    }
+
+    .footer-container>p {
+        font-size: 16px;
+    }
+}

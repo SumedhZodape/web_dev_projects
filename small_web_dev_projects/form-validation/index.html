@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+     
+
+    <section class="container">
+
+
+        <div class="form-container">
+
+            <div class="field_holder">
+                <input type="text" onkeyup="displayMessages(event)" onblur="makeNormal(event)" id="name" placeholder="Enter Name">
+                <div class="tooltip" id="name_err">
+                    Some Error Message
+                </div>
+            </div>
+
+            <div class="field_holder">
+                <input type="email" onkeyup="displayMessages(event)" id="email" placeholder="Enter Email">
+                <div class="tooltip" id="email_err">
+                    Some Error Message
+                </div>
+            </div>
+
+            <div class="field_holder">
+                <input type="password" onkeyup="displayMessages(event)" id="password" placeholder="Enter Password">
+                <div class="tooltip" id="password_err">
+                    Some Error Message
+                </div>
+            </div>
+
+            <button id="btn" disabled onclick="submitData()">Register</button>
+
+
+        </div>
+
+
+    </section>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
