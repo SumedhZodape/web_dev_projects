@@ -9,10 +9,10 @@
 <img src="project-images/techstack2.png" height="400px"/>
 
 <h3>Categories</h3>
-<img src="project-images/techstack3.png" height="400px"/>
+<img src="project-images/teckstack3.png" height="400px"/>
 
 <h3>About Us</h3>
-<img src="project-images/techstack4.png" height="400px"/>
+<img src="project-images/teckstack4.png" height="400px"/>
 
 <h3>Footer</h3>
-<img src="project-images/techstack5.png" height="400px"/>
+<img src="project-images/teckstack5.png" height="400px"/>
