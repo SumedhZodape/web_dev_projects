@@ -3,7 +3,7 @@
 <br>
 <br>
 <p>It is a simple travel project. HTML, css and js this technology I used. And It is mobile responsive project. Best and simple design. </p>
-<br>
+
 <h3>Whole project is look like this</h3>
 <img src="./project-images/travels1.png" width="500px"/>
 
