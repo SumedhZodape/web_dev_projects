@@ -8,4 +8,4 @@
 <img src="./project-images/insta1.png" height="400px"/>
 
 <h3>Instagram post</h3>
-<img src="./project-images/insta.png" width="600px"/>
+<img src="./project-images/insta2.png" width="600px"/>
