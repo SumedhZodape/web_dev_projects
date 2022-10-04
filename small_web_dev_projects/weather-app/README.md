@@ -9,4 +9,4 @@
 <img src="./project-images/weather2.png" height="400px"/>
 
 <h3>Write any city name and press enter key</h3>
-<img src="./project-images/weather3.png" height="400px"/>
+<img src="./project-images/wether3.png" height="400px"/>
