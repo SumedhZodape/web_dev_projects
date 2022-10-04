@@ -3,7 +3,7 @@
 <br>
 <br>
 <p>This is the calender project. One time on disply two month and it will be slide. and if any festivals are there and we hover on it then it will be show on top of wich festival it is. </p>
-<br>
+
 <h3>This is the two month at a time display on window screen</h3>
 <img src="./project-images/calender1.png" height="400px"/>
 
