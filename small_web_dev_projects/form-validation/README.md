@@ -1,6 +1,8 @@
 <h1>Form Validation</h1>
-<p>It is form validation project all type of validation is here. Name validation, email validation, password validation. HTML, css and java script this technology used here</p>
+<strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/form-validation/</strong>
 <br>
+<br>
+<p>It is form validation project all type of validation is here. Name validation, email validation, password validation. HTML, css and java script this technology used here</p>
 <h3>Form</h3>
 <img src="./project-images/form1.png" height="400px"/>
 
