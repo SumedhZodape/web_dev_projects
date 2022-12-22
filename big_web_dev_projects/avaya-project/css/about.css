@@ -1,0 +1,683 @@
+
+
+
+
+
+/* ----------------------------------------ABOUT PARAGRAPH SECTION START--------------------------------------- */
+
+.about-paragraph{
+    height: auto;
+    background-color: rgb(255, 94, 111) !important;
+}
+
+.bg-paragraph{
+    background-color: rgb(11, 17, 25) !important;
+}
+
+.bg-paragraph-p p{
+    color: #f7e4cb !important;
+}
+
+.big-para{
+    font-family: "GTWalsheim",sans-serif;
+    color: #0b1119;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .paragraph{
+        padding: 30px 15px;
+    }
+    .big-para{
+        font-size: 21px;
+        line-height: 2.2rem;
+    }
+}
+  
+  @media only screen and (min-width: 600px) {
+    .paragraph{
+        padding: 40px 10px;
+    }
+    .big-para{
+        font-size: 27px;
+        line-height: 3rem;
+    }
+}
+  
+  @media only screen and (min-width: 768px) {
+    .paragraph{
+        padding: 50px 50px;
+    }
+    .big-para{
+        font-size: 31px;
+        line-height: 3.1rem;
+    }
+} 
+  
+  @media only screen and (min-width: 992px) {
+    .paragraph{
+        padding: 60px 150px;
+    }
+    .big-para{
+        font-size: 32px;
+        line-height: 3.2rem;
+    }
+} 
+  
+  @media only screen and (min-width: 1200px) {
+    .paragraph{
+        padding: 70px 170px;
+    }
+    .big-para{
+        font-size: 33px;
+        line-height: 3.3rem;
+    }
+}
+  
+/* ----------------------------------------ABOUT PARAGRAPH SECTION END--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------ABOUT BOX SECTION CONTAINER START--------------------------------------- */
+
+.about-box-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-section-para-1{
+    background-color: #4e6659 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .box-section-para-1{
+     display: flex;
+     align-items: center;
+ }
+ 
+
+.box-section-para-2{
+    background-color: #f7e4cb !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.under-para-container{
+    max-width: 660px !important;
+}
+
+.about-box-h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #0b1119;
+}
+
+.about-btn-box{
+    border: 1px solid #0b1119;
+    color: #0b1119;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.about-btn-box:hover{
+    color: #f7e4cb;
+    border: 1px solid #0b1119;
+    background-color: #0b1119 !important;
+}
+
+.bg-box-para-2{
+    background-color: #0b1119 !important;
+}
+
+.bg-box-head-2{
+    color: #f7e4cb !important;
+}
+
+.bg-box-para-2{
+    color: #f7e4cb !important;
+}
+
+.btn-box-para{
+    border: 1px solid #f7e4cb;
+    color: #f7e4cb;
+}
+
+.btn-box-para:hover{
+    color: #0b1119;
+    border: 1px solid #f7e4cb;
+    background-color: #f7e4cb !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-box-section{
+        height: auto;
+    }
+    .box-section-para-1{
+        justify-content: center;
+        flex-basis: 100%;
+        height: 680px;
+    }
+    .box-section-para-2{
+        height: 680px;
+        flex-basis: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 40px;
+        line-height: 2.6rem !important;
+        width: 250px;
+    }
+    .box-section-para-2 p{
+        font-size: 17px;
+        padding-right: 0px;
+        margin-top: 18px;
+        line-height: 1.6rem;
+    }
+    .about-btn-box{
+        margin-top: 17px;
+        width: 180px !important;
+        font-size: 20px;
+    }
+    .about-img-heigh{
+        padding: 30px;
+    }
+}
+  
+  @media only screen and (min-width: 600px) {
+    .about-box-section{
+        height: auto;
+    }
+    .box-section-para-1{
+        justify-content: center;
+        flex-basis: 100%;
+        height: 700px;
+    }
+    .box-section-para-2{
+        height: 700px;
+        flex-basis: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 50px;
+        line-height: 3rem !important;
+        width: 50%;
+    }
+    .box-section-para-2 p{
+        font-size: 17px;
+        padding-right: 0px;
+        margin-top: 20px;
+        line-height: 1.7rem;
+    }
+    .about-btn-box{
+        margin-top: 20px;
+        width: 180px !important;
+        font-size: 20px;
+    }
+    .about-img-heigh{
+        padding: 30px;
+    }
+}
+  
+  @media only screen and (min-width: 768px) {
+    .about-box-section{
+        height: 800px;
+    }
+    .box-section-para-1{
+        justify-content: center;
+        flex-basis: 50%;
+        height: 800px;
+    }
+    .box-section-para-2{
+        height: 800px;
+        flex-basis: 50%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 70px;
+        line-height: 4.1rem !important;
+    }
+    .box-section-para-2 p{
+        font-size: 18px;
+        padding-right: 0px;
+        margin-top: 20px;
+        line-height: 1.8rem;
+    }
+    .about-btn-box{
+        margin-top: 20px;
+        width: 180px !important;
+        font-size: 27px;
+    }
+    .about-img-heigh{
+        padding: 30px;
+    }
+} 
+  
+  @media only screen and (min-width: 992px) {
+    .about-box-section{
+        height: 750px;
+    }
+    .box-section-para-1{
+        justify-content: center;
+        flex-basis: 50%;
+        height: 750px;
+    }
+    .box-section-para-2{
+        height: 750px;
+        flex-basis: 50%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 85px;
+        line-height: 5rem !important;
+    }
+    .box-section-para-2 p{
+        font-size: 19px;
+        padding-right: 50px;
+        margin-top: 20px;
+        line-height: 1.8rem;
+    }
+    .about-btn-box{
+        margin-top: 20px;
+        width: 180px !important;
+        font-size: 27px;
+    }
+    .about-img-heigh{
+        padding: 0px;
+    }
+} 
+  
+  @media only screen and (min-width: 1200px) {
+    .about-box-section{
+        height: 670px;
+    }
+    .box-section-para-1{
+        justify-content: center;
+        flex-basis: 50%;
+        height: 670px;
+    }
+    .box-section-para-2{
+        height: 670px;
+        flex-basis: 50%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 85px;
+        line-height: 5rem !important;
+    }
+    .box-section-para-2 p{
+        font-size: 19px;
+        padding-right: 80px;
+        margin-top: 20px;
+        line-height: 1.8rem;
+    }
+    .about-btn-box{
+        margin-top: 20px;
+        width: 180px !important;
+        font-size: 27px;
+    }
+    .about-img-heigh{
+        padding: 0px;
+    }
+}
+  
+
+@media only screen and (min-width: 1300px) {
+    .about-box-section{
+        height: 670px;
+    }
+    .box-section-para-1{
+        justify-content: flex-end;
+        padding-right: 100px;
+        flex-basis: 50%;
+        height: 670px;
+    }
+    .box-section-para-2{
+        height: 670px;
+        flex-basis: 50%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .about-box-h1{
+        width: 100%;
+        font-size: 85px;
+        line-height: 5rem !important;
+    }
+    .box-section-para-2 p{
+        font-size: 19px;
+        padding-right: 80px;
+        margin-top: 20px;
+        line-height: 1.8rem;
+    }
+    .about-btn-box{
+        margin-top: 20px;
+        width: 180px !important;
+        font-size: 27px;
+    }
+    .about-img-heigh{
+        padding: 0px;
+    }
+}
+/* ----------------------------------------ABOUT BOX SECTION CONTAINER END--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------CONTACT ABOUT BOX SECTION START--------------------------------------- */
+
+.contact-aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-aboutus-item{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contact-aboutus-item img{
+    transition: .3s;
+}
+
+.contact-aboutus-item img:hover{
+    transform: scale(1.03); 
+}
+
+
+.contact-data-item{
+    background-color: #ff5e6f !important;
+}
+
+
+.contact-data-item h4{
+    color: rgb(11, 17, 25) !important;
+}
+.contact-data-item h1{
+    color: rgb(11, 17, 25) !important;
+}
+
+.contact-data-item-2{
+    padding: 20px;
+    background-color: #4e6659 !important;
+}
+
+.contact-data-item-2 h1, h4{
+    color: #f7e4cb !important;
+}
+
+.end-about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bg-about-contact-icon-1{
+    background: url(../images/TP-Icons-Arrow.svg);
+}
+
+.bg-about-contact-icon-1:hover{
+    background-color: rgb(11, 17, 25) !important;
+}
+
+.bg-about-contact-icon-2{
+    background: url(../images/TP-Icons-Arrow_light.svg);
+}
+
+.bg-about-contact-icon-2:hover{
+    background-color: #f7e4cb !important;
+}
+
+.sm-icon{
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sm-icon:hover{
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact-aboutus-item{
+        flex-basis: 100%;
+    }
+    .straight-line{
+        border: none;
+        padding: 20px;
+    }
+    .contact-data-item{
+        padding: 20px;
+    }
+    .text-size-contact-about{
+        font-size: 40px;
+        line-height: 2.5rem !important;
+        margin-top: 40px;
+    }
+    .sm-icon{
+        height: 47px;
+        width: 47px;
+    }
+}
+  
+  @media only screen and (min-width: 600px) {
+    .contact-aboutus-item{
+        flex-basis: 100%;
+    }
+    .straight-line{
+        border: none;
+        padding: 20px;
+    }
+    .contact-data-item{
+        padding: 20px;
+    }
+    .text-size-contact-about{
+        font-size: 45px;
+        line-height: 3rem !important;
+        margin-top: 50px;
+    }
+    .sm-icon{
+        height: 47px;
+        width: 47px;
+    }
+}
+  
+  @media only screen and (min-width: 768px) {
+    .contact-aboutus-item{
+        flex-basis: 47%;
+    }
+    .straight-line{
+        height: 400px;
+        flex-basis: 1px;
+        padding: 0px !important;
+        border: 1px solid rgb(212, 212, 212);
+    }
+    .contact-data-item{
+        padding: 20px;
+    }
+    .text-size-contact-about{
+        font-size: 45px;
+        line-height: 3rem !important;
+        margin-top: 50px;
+    }
+    .sm-icon{
+        height: 42px;
+        width: 47px;
+    }
+} 
+  
+  @media only screen and (min-width: 992px) {
+    .contact-aboutus-item{
+        flex-basis: 47%;
+    }
+    .straight-line{
+        height: 500px;
+        flex-basis: 1px;
+        padding: 0px !important;
+        border: 1px solid rgb(212, 212, 212);
+    }
+    .contact-data-item{
+        padding: 20px;
+    }
+    .text-size-contact-about{
+        font-size: 65px;
+        line-height: 3.8rem !important;
+        margin-top: 50px;
+    }
+    .sm-icon{
+        height: 42px;
+        width: 45px;
+    }
+} 
+  
+  @media only screen and (min-width: 1200px) {
+    .contact-aboutus-item{
+        flex-basis: 47%;
+    }
+    .straight-line{
+        height: 550px;
+        flex-basis: 1px;
+        padding: 0px !important;
+        border: 1px solid rgb(212, 212, 212);
+    }
+    .contact-data-item{
+        padding: 20px;
+    }
+    .text-size-contact-about{
+        font-size: 70px;
+        line-height: 4rem !important;
+        margin-top: 50px;
+    }
+    .sm-icon{
+        height: 42px;
+        width: 45px;
+    }
+}  
+
+/* ----------------------------------------CONTACT ABOUT BOX SECTION END--------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------CONTACT BOX BTN SECTION START--------------------------------------- */
+
+.btn-container{
+    background-color: #f7e4cb !important;
+}
+
+.btn-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-items p{
+    font-family: "GTWalsheim",sans-serif;
+    color: #0b1119;
+    text-align: center;
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-items p{
+        font-size: 21px;
+        line-height: 2.2rem;
+    }
+}
+  
+  @media only screen and (min-width: 600px) {
+    .btn-items p{
+        font-size: 27px;
+        line-height: 3rem;
+    }
+}
+  
+  @media only screen and (min-width: 768px) {
+    .btn-items p{
+        font-size: 31px;
+        line-height: 3.1rem;
+    }
+} 
+  
+  @media only screen and (min-width: 992px) {
+    .btn-items p{
+        font-size: 32px;
+        line-height: 3.2rem;
+    }
+} 
+  
+  @media only screen and (min-width: 1200px) {
+    .btn-items p{
+        font-size: 33px;
+        line-height: 3.3rem;
+    }
+}
+  
+
+/* ----------------------------------------CONTACT BOX BTN SECTION END--------------------------------------- */
+
+
+
+
+
+
+
+
+
+

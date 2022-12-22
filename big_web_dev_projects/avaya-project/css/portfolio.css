@@ -1,0 +1,7 @@
+
+.banner-container{
+    height: 600px;
+    background: url('../images/portlin-portfolio.jpg');
+    background-position: center;
+    background-size: cover;
+}

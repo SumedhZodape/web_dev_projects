@@ -1,0 +1,259 @@
+.bg-contact-us{
+    background: url(../images/get-in-touch-hero.jpg) no-repeat center center/cover !important;;
+}
+
+
+
+
+/* ----------------------------------------CONTACT US SECTION START--------------------------------------- */
+
+.contactus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.first-item{
+    background-color: #f7e4cb !important;
+}
+
+.second-item{
+    background-color: #ff5e6f !important;
+}
+
+.contact-item-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.border-1{
+    border-bottom: 1px solid grey;
+}
+
+.contact-head{
+    color: #0b1119 !important;
+    letter-spacing: 1px;
+}
+
+.bg-sales{
+    background-color: #0b1119 !important;
+}
+
+.contact-para{
+    letter-spacing: 1px;
+}
+
+.contact-item-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-sm-icon{
+    margin-bottom: 0px !important;
+}
+
+.contact-small-head{
+    font-size: 14px;
+    color: #0b1119 !important;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .contact-item{
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .contact-us-text{
+        flex-basis: 70%;
+    }
+    .contact-head{
+        font-size: 28px;
+    }
+    .bg-sales{
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .contact-para{
+        line-height: 1.3rem !important;
+    }
+    .contact-sm-icon{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .contact-mid-line{
+        height: 10px !important;
+    }
+
+    .contact-second-head{
+        font-size: 18px !important;
+        color: #f7e4cb !important;
+    }
+}
+  
+  @media only screen and (min-width: 600px) {
+    .contact-item{
+        flex-basis: 100%;
+        padding: 30px;
+    }
+    .contact-us-text{
+        flex-basis: 70%;
+    }
+    .contact-head{
+        font-size: 28px;
+    }
+    .bg-sales{
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .contact-para{
+        line-height: 1.3rem !important;
+    }
+    .contact-sm-icon{
+        height: 35px !important;
+        width: 35px !important;
+    }
+    .contact-mid-line{
+        height: 10px !important;
+    }
+
+    
+
+    .contact-second-head{
+        font-size: 20px !important;
+        color: #f7e4cb !important;
+    }
+}
+  
+  @media only screen and (min-width: 768px) {
+    .contact-item{
+        flex-basis: 45%;
+        padding: 20px;
+    }
+    .contact-us-text{
+        flex-basis: 70%;
+    }
+    .contact-head{
+        font-size: 31px;
+    }
+    .bg-sales{
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .contact-para{
+        line-height: 1.3rem !important;
+    }
+    .contact-sm-icon{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .contact-mid-line{
+        height: 250px !important;
+    }
+
+    .contact-second-head{
+        font-size: 23px !important;
+        color: #f7e4cb !important;
+    }
+} 
+  
+  @media only screen and (min-width: 992px) {
+    .contact-item{
+        flex-basis: 45%;
+        padding: 30px;
+    }
+    .contact-us-text{
+        flex-basis: 70%;
+    }
+    .contact-head{
+        font-size: 35px;
+    }
+    .bg-sales{
+        border-radius: 50%;
+        padding: 15px;
+        height: 80px !important;
+        width: 80px !important;
+    }
+    .contact-para{
+        line-height: 1.4rem !important;
+    }
+    .contact-sm-icon{
+        height: 45px !important;
+        width: 45px !important;
+    }
+    .contact-mid-line{
+        height: 250px !important;
+    }
+
+
+
+    .contact-second-head{
+        font-size: 25px !important;
+        color: #f7e4cb !important;
+    }
+} 
+  
+  @media only screen and (min-width: 1200px) {
+    .contact-item{
+        flex-basis: 45%;
+        padding: 30px;
+    }
+    .contact-us-text{
+        flex-basis: 70%;
+    }
+    .contact-head{
+        font-size: 35px;
+    }
+    .bg-sales{
+        border-radius: 50%;
+        padding: 15px;
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .contact-para{
+        line-height: 1.4rem !important;
+    }
+    .contact-sm-icon{
+        height: 45px !important;
+        width: 45px !important;
+    }
+    .contact-mid-line{
+        height: 250px !important;
+    }
+
+
+
+    .contact-second-head{
+        font-size: 25px !important;
+        color: #f7e4cb !important;
+    }
+}
+  
+/* ----------------------------------------CONTACT US SECTION END--------------------------------------- */
+
+
+
+
+
+
