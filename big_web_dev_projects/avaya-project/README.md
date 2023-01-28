@@ -5,7 +5,7 @@
 <p>It is a clone of avaya of avaya website. Here I had made home page, about page, contact page ang blog page. It is fully responsive website. HTML, CSS and JS, Bootstrap these technology I used here.</p>
 
 <h3>Home Page Image</h3>
-<img src="./project-images/Home.png" width="500px"/>
+<img src="/project-images/Home.png" width="500px"/>
 
 <h3>About Us page</h3>
 <img src="./project-images/about.png" width="500px"/>
