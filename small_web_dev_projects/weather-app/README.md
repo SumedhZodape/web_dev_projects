@@ -12,4 +12,4 @@
 <img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/weather-app//project-images/weather2.png" width="500px" height="auto" />
 
 <h3>Write any city name and press enter key</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/weather-app//project-images/weather3.png" width="500px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/weather-app//project-images/wether3.png" width="500px" height="auto" />
