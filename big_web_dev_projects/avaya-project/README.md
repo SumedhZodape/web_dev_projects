@@ -5,13 +5,13 @@
 <p>It is a clone of avaya of avaya website. Here I had made home page, about page, contact page ang blog page. It is fully responsive website. HTML, CSS and JS, Bootstrap these technology I used here.</p>
 
 <h3>Home Page Image</h3>
-<img src="/project-images/Home.png" width="500px"/>
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/Home.png" width="600px" height="auto" />
 
 <h3>About Us page</h3>
-<img src="./project-images/about.png" width="500px"/>
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/about.png" width="600px" height="auto" />
 
 <h3>Blog Page</h3>
-<img src="./project-images/blog.png" width="500px"/>
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/blog.png" width="600px" height="auto" />
   
 <h3>Contact Us Page</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/contact.png" width="600px" height="auto" />
