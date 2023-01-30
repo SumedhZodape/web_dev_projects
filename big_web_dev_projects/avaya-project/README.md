@@ -1,5 +1,5 @@
 <h1>Avaya Web Application</h1>
-<strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Travel_Design/</strong>
+<strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//</strong>
 <br>
 <br>
 <p>It is a clone of avaya of avaya website. Here I had made home page, about page, contact page ang blog page. It is fully responsive website. HTML, CSS and JS, Bootstrap these technology I used here.</p>
