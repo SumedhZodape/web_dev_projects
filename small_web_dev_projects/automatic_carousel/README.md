@@ -1,4 +1,4 @@
-<a href="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/automatic_carousel/" target="_blank">https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/automatic_carousel/</a>
+<a href="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/automatic_carousel/" target="blank">https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/automatic_carousel/</a>
 <h1>Automatic Carousel / Automatic Slider</h1>
 <stron>Website Link : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/automatic_carousel/<strong>
 <br>
