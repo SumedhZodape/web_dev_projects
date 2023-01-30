@@ -1,6 +1,7 @@
 <h1>Movie Application</h1>
-<strong>Website Link : Admin : </strong>
-<strong>Website Link : User : </strong>
+<strong>Website Link : Admin : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/CRUD_Movie-main/index.html</strong>
+<br>
+<strong>Website Link : User : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/CRUD_Movie-main/homepage.html</strong>
 <br>
 <br>
 <p>This is crud movie applicatio. HTML, css and java script this technology I used here. Here Admin can create movie, Update movie, Delete movie and view movie, Also I used pagination. Admin will added data in local storage.</p>
