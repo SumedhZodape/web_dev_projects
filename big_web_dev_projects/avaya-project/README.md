@@ -16,4 +16,5 @@
 <h3>Contact Us Page</h3>
 <img src="./project-images/contact.png" height="500px"/>
 
-![Alt text](./project-images/contact.png "Optional title")
+<img src="/project-images/contact.png" alt="Alt text" title="Optional title">
+
