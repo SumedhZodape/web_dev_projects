@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="filter_box" id="filter_box">
+
+            <select class="inp" onchange="setFilters('category', this.value), filter()">
+                <option value="">Select Category</option>
+                <option value="food">Food</option>
+                <option value="drink">Drink</option>
+                <option value="dairy">Dairy</option>
+            </select>
+
+            <input type="number" id="quantity" onkeyup="setFilters('quantity', this.value), filter()" placeholder="Enter Quantity" class="inp">
+
+            <div class="price_filter">
+                <h2>Select Price Range</h2>
+
+                <p class="price">
+                    <span>0</span>
+                    <input type="range" min="0" max="220" value="0" onchange="setFilters('minPrice', this.value), filter()" class="inp no-pad">
+                    <span>220</span>
+                </p>
+
+                <p class="price">
+                    <span id="lowMaxPriceLabel">0</span>
+                    <input type="range" min="0" max="220" id="maxPrice" value="0" onchange="setFilters('maxPrice', this.value), filter()" class="inp no-pad">
+                    <span>220</span>
+                </p>
+            </div>
+
+            <button onclick="closeFilterSection()">Close</button>
+
+        </div>
+
+        <div class="data">
+            <div class="header">
+                <h1>All Products</h1>
+                <button onclick="openFilterSection()">Filters</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Pic</th>
+                    </tr>
+                    <tbody id="data">
+
+                    </tbody>
+                </thead>
+            </table>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
