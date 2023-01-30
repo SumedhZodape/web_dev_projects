@@ -3,7 +3,7 @@
 <strong>Website Link : User : </strong>
 <br>
 <br>
-<p>This is crud movie applicatio. HTML, css and java script this technology I used here. Here Admin can create movie, Update movie, Delete movie and view movie, Also I used pagination. Admin added movie in local storage.</p>
+<p>This is crud movie applicatio. HTML, css and java script this technology I used here. Here Admin can create movie, Update movie, Delete movie and view movie, Also I used pagination. Admin will added data in local storage.</p>
 <p>User can see all the movie and Some Information also he /she can give rating.</p>
 
 <h3>Crud movie Admin View</h3>
