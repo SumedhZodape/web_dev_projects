@@ -11,10 +11,10 @@
 <img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/techstack2.png" width="500px" height="auto" />
 
 <h3>Categories</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/techstack3.png" width="500px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/teckstack3.png" width="600px" height="auto" />
 
 <h3>About Us</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/techstack4.png" width="500px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/teckstack4.png" width="600px" height="auto" />
 
 <h3>Footer</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/teckstack-main//project-images/teckstack5.png" width="500px" height="auto" />
