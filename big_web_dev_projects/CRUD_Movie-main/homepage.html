@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Homepage</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/homepage.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="modal" id="modal">
+        <div class="modal_child">
+            <div class="rate">
+                <i class="fa-solid fa-star rate_star" data-num="1" onclick="confirmRating(event)" onmouseover="selectRate(event)" onmouseout="clearUp()"></i>
+                <i class="fa-solid fa-star rate_star" data-num="2" onclick="confirmRating(event)" onmouseover="selectRate(event)" onmouseout="clearUp()"></i>
+                <i class="fa-solid fa-star rate_star" data-num="3" onclick="confirmRating(event)" onmouseover="selectRate(event)" onmouseout="clearUp()"></i>
+                <i class="fa-solid fa-star rate_star" data-num="4" onclick="confirmRating(event)" onmouseover="selectRate(event)" onmouseout="clearUp()"></i>
+                <i class="fa-solid fa-star rate_star" data-num="5" onclick="confirmRating(event)" onmouseover="selectRate(event)" onmouseout="clearUp()"></i> 
+            </div>
+            <div>
+                <button onclick="submitRating()">Submit Rating</button>
+                <button onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies">
+        <div class="movies_header">
+            <h1>Movies List</h1>
+
+        </div>
+
+        <div class="all_movies" id="all_movies">
+            <!-- generate element using js -->
+        </div>
+    </section>
+
+    <script src="./js/homepage.js"></script>
+</body>
+
+</html>

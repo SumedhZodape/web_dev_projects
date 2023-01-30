@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movies{
+    width: 100%;
+    padding: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.movies_header{
+    font-family: Segoe UI;
+    /* background-color: red; */
+}
+
+.movies_header > h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.all_movies{
+    padding: 30px;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.66666666667%;
+    row-gap: 20px;
+}
+
+
+
+
+/* card css */
+.card{
+    /* height: 300px; */
+    width: 23%;
+    background-color: red;
+}
+
+.image-container{
+    height: 250px;
+    overflow: hidden;
+    /* margin-top: -100px; */
+}
+
+.image-container>img{
+    margin-top: -100px;
+    width: 100%;
+}
+
+
+.movie_contents{
+    background-color: rgb(19, 19, 19);
+    padding: 10px 15px;
+    font-family: Segoe UI;
+    column-gap: 10px;
+    color: #fff;
+}
+
+.movie_contents >h2{
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+
+.ratings{
+    display: flex;
+    column-gap: 15px;
+}
+
+.new_ratings{
+    /* background-color: red; */
+    position: relative;
+    height: 20px;
+    width: 85px;
+}
+
+.white_ratings, .yellow_ratings{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+
+.yellow_ratings > i{
+    color: gold;
+}
+
+.ratings i{
+    font-size: 15px;
+}
+
+.ratings p{
+    font-size: 14px;
+}
+
+button{
+    background-color: rgb(218, 218, 218);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+
+
+/* css for modal */
+.modal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal_child{
+    padding: 30px;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate{
+    margin-bottom: 20px;
+}
+
+.rate > i{
+    font-size: 25px;
+    color: #dedede;
+}
+
+
+.rate_star:hover{
+    color: gold;
+}
+
+
+
