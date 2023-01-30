@@ -16,4 +16,4 @@
 <h3>Contact Us Page</h3>
 <img src="./project-images/contact.png" height="500px"/>
 
- <img src="./project-images/contact.png" width="500" title="hover text">
+![Alt text](./project-images/contact.png "Optional title")
