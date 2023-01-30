@@ -1,5 +1,6 @@
 <h1>Small Web Developement Projects </h1>
 <strong>1) Calender Web Application : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Calender-main/</strong>
+<br>
 <img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Calender-main//project-images/calender1.png" width="600px" height="auto" />
 <br>
 <strong>2) Traveling Web Application : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Travel_Design/</strong>
