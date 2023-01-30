@@ -1,4 +1,4 @@
-<h1>Movie Application</h1>
+<h1>Fashion Filter Application</h1>
 <strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/fashionFilter-main/</strong>
 <br>
 <br>
