@@ -14,7 +14,6 @@
 <img src="./project-images/blog.png" width="500px"/>
   
 <h3>Contact Us Page</h3>
-<img src="./project-images/contact.png" height="500px"/>
+<img src="//project_images/contact.png" height="500px"/>
 
-<img src="./project_images/contact.png" alt="Alt text" title="Optional title">
 
