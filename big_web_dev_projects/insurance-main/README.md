@@ -23,15 +23,15 @@
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance6.png" width="600px" height="auto" />
 
 <h3>Mobile View : Header and Banner</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance7.png" width="600px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance7.png" width="400px" height="auto" />
 
 <h3>Mobile View : Product section</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance8.png" width="600px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance8.png" width="400px" height="auto" />
 
 <h3>Mobile View : History section</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance9.png" width="600px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance9.png" width="400px" height="auto" />
 
 <h3>Mobile View : Footer section</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance10.png" width="600px" height="auto" />
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/insurance-main//project-images/insurance10.png" width="400px" height="auto" />
 
 
