@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters Project</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="container-fluid header">
+                <div class="container header-container">
+                    <h2>F<span>ashion</span></h2>
+                    <div class="button-group">
+                        <button onclick="openFilterSection()">Open Filter</button>
+                        <!-- <button>Log In</button> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <div class="filters" id="filter-box">
+
+
+            <select class="inp" onchange="setFilters('category', this.value), filter()">
+                <option value="">Select Category</option>
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Formal Shirts">Formal Shirts</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Shorts">Shorts</option>
+            </select>
+
+            <h1>Price Range</h1>
+            <div class="price-container">
+                <div class="underPrice">
+                    <div id="minP">100</div>
+                    <div id="maxP">1000</div>
+                </div>
+                <input type="number" min="100" max="1000" value="0" placeholder="Enter Min Price" id="minPrice"
+                    onkeyup="setFilters('minPrice', this.value), filter()">
+            </div>
+            <div class="price-container">
+                <div class="underPrice">
+                    <div id="lowMaxPriceLabel">100</div>
+                    <div id="maxP">1000</div>
+                </div>
+                <input type="number" min="100" max="1000" value="0" placeholder="Enter Max Price" id="maxPrice"
+                    onkeyup="setFilters('maxPrice', this.value), filter()">
+            </div>
+        <button style="margin-top: 30px; width: 100%;" onclick="closeFilter()">Close</button>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="container data" id="data">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+    <div class="container-fluid footer">
+        <div class="container footer-container">
+            <p>	&#169; Copyright 2022 | All Rights Reserved | Design & Managed By Sumedh Zodape</p>
+        </div>
+    </div>
+
+    <!-- js-->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
