@@ -16,5 +16,4 @@
 <h3>Contact Us Page</h3>
 <img src="./project-images/contact.png" height="500px"/>
 
-
-![Semantic description of image](/project-images/contact.png "Image Title")
+ <img src="./project-images/contact.png" width="500" title="hover text">
