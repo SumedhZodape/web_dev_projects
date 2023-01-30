@@ -14,6 +14,6 @@
 <img src="./project-images/blog.png" width="500px"/>
   
 <h3>Contact Us Page</h3>
-<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/contact.png" width="600px" style="border:1px soldid grey;"/>
+<img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/avaya-project//project_images/contact.png" width="600px" style="border:1px solid grey;"/>
 
 
