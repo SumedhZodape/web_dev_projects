@@ -2,7 +2,9 @@
 <strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Travel_Design/</strong>
 <br>
 <br>
-<p>It is a simple travel project. HTML, css and js this technology I used. And It is mobile responsive project. Best and simple design. </p>
+<p>Welcome to our simple travel project, where we bring you a beautiful and mobile-responsive website to help you plan your next adventure. Our website is designed using HTML, CSS, and JavaScript, and features a clean and simple design that is easy to navigate. </p>
+
+<p>Our mobile-responsive design ensures that you can access our website from anywhere, on any device. Whether you're using a desktop computer, a tablet, or a mobile phone, our website will adapt to your screen size and provide you with a seamless user experience.</p>
 
 <h3>Whole project is look like this</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/small_web_dev_projects/Travel_Design//project-images/travels1.png" width="600px" height="auto" />
