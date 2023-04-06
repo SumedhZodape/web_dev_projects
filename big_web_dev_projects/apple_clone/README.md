@@ -12,19 +12,19 @@
 
 <p>So why not take a look around our website and see for yourself? Whether you're an Apple fan or just interested in the design process, our clone is a great example of what can be achieved with HTML and CSS.</p>
 
-<h3>Home Page Image</h3>
+<h3>Full Page</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/apple_clone//project_images/img1.png" width="600px" height="auto" />
 
-<h3>About Us page</h3>
+<h3>Header</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/apple_clone//project_images/img2.png" width="600px" height="auto" />
 
-<h3>Blog Page</h3>
+<h3>Category</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/apple_clone//project_images/img3.png" width="600px" height="auto" />
   
-<h3>Contact Us Page</h3>
+<h3>Category</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/apple_clone//project_images/img4.png" width="600px" height="auto" />
 
-<h3>Contact Us Page</h3>
+<h3>Category</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/apple_clone//project_images/img5.png" width="600px" height="auto" />
 
 
