@@ -2,7 +2,15 @@
 <strong>Website Link : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/filter-main/</strong>
 <br>
 <br>
-<p>This is E-Commerce filter application. HTML, css and js this technology I used here. It is a java script web application. Here I crated array of products. And shown on web page by using java script. Here user can see all the products in table format. User will click on filter button an one left bar will show there are 3 types of filter he can apply. User can select the category of product and filter it, based on quantity he can filter it, based on price range he can filter the products.</p>
+<p>Welcome to our E-Commerce filter application! Our project is built using HTML, CSS, and JavaScript, and is designed to make it easy for users to filter through our collection of products.</p>
+
+<p>We've used JavaScript to create an array of products, which are displayed on the webpage in a table format. Our intuitive filter system allows users to quickly narrow down their search results based on category, quantity, and price range.</p>
+
+<p>When a user clicks on the filter button, a left bar is displayed with three types of filters that can be applied to the products. Users can select the category of the product they're interested in and filter the results accordingly. They can also filter products based on their quantity and price range.</p>
+
+<p>Our E-Commerce filter application is perfect for anyone looking for a simple and user-friendly way to shop for products online. With just a few clicks, users can quickly and easily find the products they're looking for. Whether you're looking for clothing, electronics, or any other product, our filter application makes shopping a breeze.</p>
+
+<p>So why wait? Explore our website today and discover the power of HTML, CSS, and JavaScript in creating stunning and user-friendly E-Commerce web applications.</p>
 
 <h3>E-Commerce Filter Website View</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/filter-main//project-images/filter1.png" width="600px" height="auto" />
