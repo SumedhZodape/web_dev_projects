@@ -4,8 +4,16 @@
 <strong>Website Link : User : https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/CRUD_Movie-main/homepage.html</strong>
 <br>
 <br>
-<p>This is crud movie application. HTML, css and java script this technology I used here. Here Admin can create movie, Update movie, Delete movie and view movie, Also I used pagination. Admin will added data in local storage.</p>
-<p>User can see all the movie and Some Information also he /she can give rating.</p>
+
+<p>Welcome to our CRUD movie application! Our project is built using HTML, CSS, and JavaScript, and is designed to provide a user-friendly and efficient way to manage and view movie data.</p>
+
+<p>As an admin, you have the ability to create new movies, update existing movies, delete movies, and view all movies in the system. We've also implemented a pagination feature, allowing you to easily navigate through large amounts of data.</p>
+
+<p>All movie data is stored locally, making it easy for you to access and manage your movie library. Additionally, our application allows users to view all movies in the system, as well as provide ratings for each movie.</p>
+
+<p>Our application is perfect for movie enthusiasts who want to keep track of their favorite movies and manage their movie collection in a simple and efficient way. With its user-friendly interface and powerful features, our CRUD movie application is the perfect tool for movie lovers everywhere.</p>
+
+<p>So why wait? Try our CRUD movie application today and start managing your movie collection like a pro!</p>
 
 <h3>Crud movie Admin View</h3>
 <img src="https://sumedhzodape.github.io/web_dev_projects/big_web_dev_projects/CRUD_Movie-main//project-images/crud1.png" width="600px" height="auto" />
