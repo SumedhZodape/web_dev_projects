@@ -1,0 +1,615 @@
+@media (min-width:320px) and (max-width:600px){
+    .container{
+        width: 90%;
+    }
+
+    /* remove thing  */
+    .searchbar{
+        display: none;
+    }
+    .gift, .login{
+        display: none;
+    }
+
+    .navigation{
+        width: 70%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .log{
+        justify-content: flex-end;
+    }
+
+    .hamburger{
+        height: 40px;
+        width: 40px;
+        /* background-color: red; */
+        /* border: 2px solid grey; */
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .bar-icon{
+        height: 3px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+
+    .big-search-bar{
+        width: 100%;
+    }
+
+
+
+
+
+
+    
+    /* banner */
+    .banner-container > h1{
+        font-size: 25PX;
+    }
+
+    .up-slider{
+        height: 50px;
+    }
+
+    .text-slider{
+        height: 250px;
+    }
+
+
+    @keyframes text-slider {
+        12.5%{
+            margin-top: -50px;
+        }
+        25%{
+            margin-top: -50px;
+        }
+        37.5%{
+            margin-top: -100px;
+        }
+        50%{
+            margin-top: -100px;
+        }
+        62.5%{
+            margin-top: -150px;
+        }
+        75%{
+            margin-top: -150px;
+        }
+        87.5%{
+            margin-top: -200px;
+        }
+        100%{
+            margin-top: -200px;
+        }
+    }
+
+    .text-slider >h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .tour-buttons{
+        column-gap: 0.4%;
+        row-gap: 1px;
+    }
+
+    .tour-btn{
+        width: 49.8%;
+        padding: 10px 30px;
+        box-sizing: border-box;
+        flex-grow: 1;
+        text-align: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
+
+
+    .big-search-bar{
+        height: 40px;
+    }
+
+    .big-search-bar > input{
+        width: 90%;
+    }
+
+    .big-search-bar > input::placeholder{
+        font-size: 15px;
+    }
+
+    .big-search-bar > i{
+        height: 40px;
+        font-size: 15px;
+        width: 10%;
+    }
+
+
+
+    .banner-bottom{
+        /* height: 100px; */
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 2%;
+    }
+
+    .company-info{
+        width: 49%;
+        /* justify-content: center; */
+    }
+
+    .company-info > i{
+        font-size: 25px;
+    }
+    .info > p{
+        font-size: 10px;
+        /* align-self: center; */
+    }
+
+
+
+
+
+
+
+
+
+
+    /* about-container */
+
+    .ideal-container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        row-gap: 30px;
+    }
+
+
+    .ideal-information{
+        width: 100%;
+    
+    }
+
+    .ideal-info-container{
+        width: 100%;
+        overflow: scroll;
+        overflow-y: visible;
+    }
+
+    .ideal-under-parent{
+        width: 250%;
+        /* column-gap: 25px; */
+        justify-content: space-between;
+    }
+
+    .ideal-info{
+        flex-basis: 31%;
+        height: 350px;
+        justify-content: flex-start;
+    }
+
+    .ideal-information > h1{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 600;
+        color: #3a3a3a;
+    }
+    
+    .ideal-information > h1::after {
+        left: calc(50% - 13%);
+        bottom: -15px;
+    }
+
+    .ideal-information > p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+
+
+
+    /* cities container */
+
+    .cities-container{
+        height: auto;
+        column-gap: 0;
+    }
+
+    .offer-section{
+        flex-basis: 100%;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .package h3{
+        font-size: 20px;
+    }
+
+    .package h4{
+        font-size: 18px;
+    }
+
+    .percentage{
+        height: 100px;
+    }
+    
+    .percentage h1{
+        font-size: 100px;
+    }
+
+    .discount{
+        line-height: 40px;
+    }
+
+    .discount h2{
+        font-size: 40px;
+    }
+
+    .discount h3{
+        font-size: 25px;
+    }
+
+    .package-btn{
+        height: 30px;
+        width: 120px;
+        margin-top: 220px;
+        font-size: 18px;
+    }
+
+
+    .cities{
+        flex-basis: 100%;
+        height: 500px;
+        gap: 18px;
+    }
+
+    .gal h2{
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+    /* carousel container */
+
+    .carousel-container{
+        height: 150px;
+    }
+
+    .carousel_img img{
+        height: 150px;
+    }
+
+
+
+
+
+
+    /* slider section */
+    
+    .slide > h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .d-none{
+        display: none;
+    }
+
+    .experience_container{
+        overflow: scroll;
+        overflow-y: visible;
+    }
+
+    .experience_cart{
+        height: auto;
+    }
+    
+
+    .experience_slider{
+        width: calc(22.8%*21);
+        column-gap: .8%;
+    }
+
+    .experience_cart_img {
+        height: 254px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* <!-- Destinations  Section --> */
+
+    .destination_cities{
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+    
+    .batches{
+        column-gap: 2%;
+    }
+
+    .batches_sec{
+        width: 49%;
+    }
+
+    .batches_img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .batches_data h3{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .batches_data p{
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* <!-- Paradise section --> */
+
+    .paradise_container{
+        column-gap: 4%;
+        row-gap: 20px;
+    }
+
+    .paradise_card{
+        flex-basis: 48%;
+        overflow: hidden;
+    }
+
+    .paradise_data > h3{
+        font-size: 15px;
+    }
+
+    .paradise_para{
+        padding-right: 5px;
+    }
+
+    .para_info > p{
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* <!-- Latest Travel Trends section --> */
+
+    .travel_info:nth-child(1){
+        flex-basis: 100%;
+        row-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .travel_container{
+        flex-wrap: wrap-reverse;
+        row-gap: 20px;
+    }
+
+    .travel_info:nth-child(2){
+        flex-basis: 100%;
+    }
+
+    .travel_booking_data > h3{
+        font-size: 13px;
+    }
+
+    .travel_booking_data{
+        justify-content: flex-start;
+        /* margin-bottom: 20px; */
+    }
+
+    .travel_info > h2{
+        font-size: 20px;
+    }
+
+    .travel_info > p{
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Gift an Experience section */
+
+    .gift-container{
+        row-gap: 20px;
+    }
+
+    .gift-img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gift-info{
+        width: 100%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .gift-info > h2{
+        font-size: 25px;
+    }
+
+    .gift-info > p{
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .gift-btn{
+        font-size: 15px;
+        width: 150px !important;    
+    }
+
+
+
+
+
+
+
+
+    /* Our Partners section */
+
+    .partner-para > p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .partners-container{
+        column-gap: 15.5%;
+        row-gap: 40px;
+    }
+
+    .logos{
+        flex-basis: 23%;
+        height: 35px;
+        box-sizing: border-box;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+
+    .company_logo{
+        width: 100%;
+    }
+
+
+
+
+
+
+    
+    /* Footer section */
+
+    .footer-info > p{
+        color: #000000;
+    }
+
+    .footer-container{
+        row-gap: 20px;
+    }
+
+    .footer-info:nth-child(4){
+        flex-basis: 100%;
+    }
+    
+    .footer-info:nth-child(1), .footer-info:nth-child(2) , .footer-info:nth-child(3){
+        flex-basis: 100%;
+    }
+
+    .footer-info:nth-child(1), .footer-info:nth-child(2){
+        border-right: none;
+    }
+
+    
+
+
+    .vertical-logo{
+        margin-top: 950px;
+        column-gap: 24;
+    }
+
+    .vertical_line{
+        flex-basis: 0%;
+    }
+
+
+    .vertical_image{
+        flex-basis: 180px;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* social icon */
+
+    .social_container{
+        column-gap: 20px;
+    }
+
+
+    
+    /* last footer */
+    .last-footer > h3{
+        font-size: 14px;
+    }
+
+
+    .last-footer > p{
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
